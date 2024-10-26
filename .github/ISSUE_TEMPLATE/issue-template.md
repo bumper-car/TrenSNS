@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: 기능 추가
+name: Issue Template
+about: '이슈를 생성해주세요. '
 title: ''
 labels: ''
 assignees: ''
