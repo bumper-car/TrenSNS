@@ -12,7 +12,7 @@ search_query = input("Enter your search query: ")
 
 # 검색어 및 매개변수 설정
 kw_list = [search_query]
-timeframe = 'today 3-m'
+timeframe = 'today 1-m'
 geo = 'KR'
 
 # 데이터 수집 함수 정의 (429 에러 방지)
