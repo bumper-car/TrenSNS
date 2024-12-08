@@ -47,7 +47,7 @@ result = {
 for index, row in interest_over_time_df.iterrows():
     action = {
         "index": {
-            "_index": "google_trend_time",
+            "_index": "google_trend",
             "_id": f"time{index.strftime('%Y%m%d%H%M%S')}"
         }
     }
@@ -64,7 +64,7 @@ for index, row in interest_by_region_df.iterrows():
     iso_code = korean_region_to_iso(index)
     action = {
         "index": {
-            "_index": "google_trend_region",
+            "_index": "google_trend",
             "_id": f"region{iso_code}"
         }
     }
