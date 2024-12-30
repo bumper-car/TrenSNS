@@ -11,5 +11,5 @@ public class KafkaEsApplication {
     public static void main(String[] args) {
         SpringApplication.run(KafkaEsApplication.class, args);
     }
-
 }
+

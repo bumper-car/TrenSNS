@@ -1,4 +1,4 @@
-package model;
+package com.example.kafka_es.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

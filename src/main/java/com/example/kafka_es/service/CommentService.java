@@ -1,11 +1,11 @@
-package service;
+package com.example.kafka_es.service;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch.core.BulkRequest;
 import co.elastic.clients.elasticsearch.core.BulkResponse;
 import co.elastic.clients.elasticsearch.core.bulk.BulkOperation;
 import lombok.RequiredArgsConstructor;
-import model.CommentModel;
+import com.example.kafka_es.model.CommentModel;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
