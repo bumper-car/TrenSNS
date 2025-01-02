@@ -1,12 +1,8 @@
 plugins {
     id 'java'
-<<<<<<< HEAD
     id 'org.springframework.boot' version '3.4.1'
     id 'io.spring.dependency-management' version '1.1.7'
-=======
-    id 'org.springframework.boot' version '3.3.5'
-    id 'io.spring.dependency-management' version '1.1.6'
->>>>>>> c69ecb9d120d12f0756d5813ae59f420f28d0add
+
 }
 
 group = 'com.example'
@@ -30,7 +26,6 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
-<<<<<<< HEAD
     implementation 'org.springframework.kafka:spring-kafka'
     implementation 'co.elastic.clients:elasticsearch-java:8.15.2'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
@@ -38,12 +33,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.kafka:spring-kafka-test'
-=======
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
->>>>>>> c69ecb9d120d12f0756d5813ae59f420f28d0add
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
